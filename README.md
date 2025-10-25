@@ -1,5 +1,7 @@
 # Mastering AI/ML: A Guided Research Paper Journey
 
+**Live Site:** [https://maheshbabukona.github.io/PaperPath-AI/](https://maheshbabukona.github.io/PaperPath-AI/)
+
 This project is not just a list of papers; it's a structured curriculum. Reading foundational research is the single best way to build a deep, first-principles understanding of AI. This guide is designed to take you from core mathematical principles to the cutting-edge of Generative AI, one paper at a time.
 
 This tool is built to help you navigate that journey.
