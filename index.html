@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI/ML Research Papers - Learning Path</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI/ML Research Papers</h1>
+            <p class="subtitle">A Structured Learning Path to Mastery</p>
+        </header>
+
+        <div class="controls">
+            <input 
+                type="text" 
+                id="searchBox" 
+                class="search-box" 
+                placeholder="Search papers by title, description, or tags..."
+            >
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label class="filter-label">Filter by Topic</label>
+                    <select id="topicFilter">
+                        <option value="all">All Topics</option>
+                        <option value="GenAI">Generative AI</option>
+                        <option value="NLP">Natural Language Processing</option>
+                        <option value="Computer Vision">Computer Vision</option>
+                        <option value="ML Fundamentals">ML Fundamentals</option>
+                        <option value="Optimization">Optimization</option>
+                        <option value="Reinforcement Learning">Reinforcement Learning</option>
+                        <option value="Transformers">Transformers</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Filter by Difficulty</label>
+                    <select id="difficultyFilter">
+                        <option value="all">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Filter by Priority</label>
+                    <select id="priorityFilter">
+                        <option value="all">All Papers</option>
+                        <option value="mandatory">Mandatory Only</option>
+                        <option value="optional">Optional Only</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="stats">
+                <span id="resultsCount">52 papers</span>
+                <span id="completedCount">0 completed</span>
+            </div>
+        </div>
+
+        <div id="papersContainer"></div>
+    </div>
+
+    <script src="papers.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
